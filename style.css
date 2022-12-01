@@ -1,0 +1,493 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+
+body {
+    max-width: 1200px;
+    margin-inline: auto;
+    height: auto;
+}
+
+
+@font-face {
+    font-family: Cormorant;
+    src: url(cormorant-variablefont_wght-webfont.woff2);
+}
+
+
+
+.background_box {
+    position: relative;
+    z-index: 1;
+    margin-top: 10%;
+    max-width: 1200px;
+    background: rgba(240, 240, 240, 0.6);;
+    border: black solid 1px;
+    margin-bottom: 10%;
+}
+
+
+.background_box_indhold h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 5rem;
+}
+
+.background_box_indhold h2 {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5rem;
+}
+
+.background_box_indhold h3 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+}
+
+.frontpage_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    margin-top: 30px;
+
+}
+
+.background_box_indhold p {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 85px;
+
+}
+
+.background_box_indhold a {
+    font-family: Cormorant, serif;
+    font-size: 1.5rem;
+    color: black;
+    padding: 20px;
+    border: black 5px double;
+    text-decoration: none;
+}
+
+
+.flex_photos {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+.flex_photo1 {
+    width: 30%;
+}
+
+.flex_photo2 {
+    width: 30%;
+}
+
+.flex_photo3 {
+    width: 30%;
+}
+
+
+
+ul {
+    margin-bottom: 50px;
+}
+
+
+li {
+    margin-top: 20px;
+    list-style: none;
+    font-size: 1.5rem;
+    font-family: Cormorant, serif;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+
+
+.flex_video {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+
+
+
+/*BACKGROUND*/
+
+#kameraudstyr_container1 {
+    position: absolute;
+    width: 15%;
+    aspect-ratio: 2/1;
+    top: -15%
+}
+
+#kameraudstyr_sprite1 {
+    background-image: url("photos/Artboard\ 11.png");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+
+#kameraudstyr_container2 {
+    position: absolute;
+    width: 10%;
+    aspect-ratio: 1/1;
+    top: -20%
+}
+
+#kameraudstyr_sprite2 {
+    background-image: url("photos/Artboard\ 21.png");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+#kameraudstyr_container3 {
+    position: absolute;
+    width: 10%;
+    aspect-ratio: 1.29/1;
+    top: -20%
+}
+
+#kameraudstyr_sprite3 {
+    background-image: url("photos/Artboard\ 31.png");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+#kameraudstyr_container4 {
+    position: absolute;
+    width: 18%;
+    aspect-ratio: 1.21/1;
+    top: -30%;
+}
+
+#kameraudstyr_sprite4 {
+    background-image: url("photos/Artboard\ 41.png");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+#kameraudstyr_container5 {
+    position: absolute;
+    width: 14%;
+    aspect-ratio: 1.02/2;
+    top: -67%;
+}
+
+#kameraudstyr_sprite5 {
+    background-image: url("photos/Artboard\ 51.png");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+#kameraudstyr_container6 {
+    position: absolute;
+    width: 18%;
+    aspect-ratio: 1/1.17;
+    top: -50%;
+}
+
+#kameraudstyr_sprite6 {
+    background-image: url("photos/Artboard\ 61.png");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+#kameraudstyr_container7 {
+    position: absolute;
+    width: 18%;
+    aspect-ratio: 1/0.8;
+    top: -50%;
+}
+
+#kameraudstyr_sprite7 {
+    background-image: url("photos/Artboard\ 71.png");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+#kameraudstyr_container8 {
+    position: absolute;
+    width: 15%;
+    aspect-ratio: 1/1.36;
+    top: -50%;
+}
+
+
+#kameraudstyr_sprite8 {
+    background-image: url("photos/Artboard\ 81.png");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+#kameraudstyr_container9 {
+    position: absolute;
+    width: 15%;
+    aspect-ratio: 2/1;
+    top: -20%
+}
+
+#kameraudstyr_sprite9 {
+    background-image: url("photos/Artboard\ 11.png");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+
+#kameraudstyr_container10 {
+    position: absolute;
+    width: 10%;
+    aspect-ratio: 1/1;
+    top: -20%
+}
+
+#kameraudstyr_sprite10 {
+    background-image: url("photos/Artboard\ 21.png");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+#kameraudstyr_container11 {
+    position: absolute;
+    width: 10%;
+    aspect-ratio: 1.29/1;
+    top: -20%
+}
+
+#kameraudstyr_sprite11 {
+    background-image: url("photos/Artboard\ 31.png");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+#kameraudstyr_container12 {
+    position: absolute;
+    width: 18%;
+    aspect-ratio: 1.21/1;
+    top: -30%;
+}
+
+#kameraudstyr_sprite12 {
+    background-image: url("photos/Artboard\ 41.png");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+#kameraudstyr_container13 {
+    position: absolute;
+    width: 14%;
+    aspect-ratio: 1.02/2;
+    top: -67%;
+}
+
+#kameraudstyr_sprite13 {
+    background-image: url("photos/Artboard\ 51.png");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+#kameraudstyr_container14 {
+    position: absolute;
+    width: 18%;
+    aspect-ratio: 1/1.17;
+    top: -50%;
+}
+
+#kameraudstyr_sprite14 {
+    background-image: url("photos/Artboard\ 61.png");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+#kameraudstyr_container15 {
+    position: absolute;
+    width: 18%;
+    aspect-ratio: 1/0.8;
+    top: -50%;
+}
+
+#kameraudstyr_sprite15 {
+    background-image: url("photos/Artboard\ 71.png");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+#kameraudstyr_container16 {
+    position: absolute;
+    width: 15%;
+    aspect-ratio: 1/1.36;
+    top: -50%;
+}
+
+#kameraudstyr_sprite16 {
+    background-image: url("photos/Artboard\ 81.png");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+
+.drop1 {
+    animation-name: drop1_kf;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+}
+
+@keyframes drop1_kf  {
+    0% {
+        translate: 0% -100%;
+    }
+    100% {
+        translate: 0% 530%;
+    }
+}
+
+.drop2 {
+    animation-name: drop2_kf;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+}
+
+@keyframes drop2_kf  {
+    0% {
+      translate: 0% -100%;
+    }
+    100% {
+      translate: 0% 1400%;
+    }
+}
+
+
+
+.rotate {
+    animation-name: rotate_kf;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+}
+  
+  @keyframes rotate_kf {
+    0% {
+      transform: rotate(0);
+      opacity: 1;
+    }
+  
+    100% {
+      transform: rotate(360deg);
+      opacity: 0;
+    }
+  }
+
+
+.pos1{
+    left: 0%;
+}
+  
+.pos2{
+    left: 15%;
+}
+
+.pos3{
+    left: 30%;  
+}
+  
+.pos4{
+    left: 45%;
+}
+
+.pos5{
+    left: 60%;
+}
+
+.pos6{
+    left: 75%;
+}
+
+.pos7{
+    left: 85%;
+}
+
+
+
+/*********************DELAYS*********************/
+
+.delay1 {
+    animation-delay: 0s;
+}
+
+.delay2 {
+    animation-delay: 2s;
+}
+
+.delay3 {
+    animation-delay: 4s;
+}
+
+.delay4 {
+    animation-delay: 6s;
+}
+
+.delay5 {
+    animation-delay: 8s;
+}
+
+.delay6 {
+    animation-delay: 10s;
+}
+
+.delay7 {
+    animation-delay: 12s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
